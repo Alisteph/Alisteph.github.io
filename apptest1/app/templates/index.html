@@ -4,20 +4,27 @@
         <title>メトロノーム</title>
     </head>
     <body>
-    <h1>メトロノーム</h1>
+        <h1>メトロノーム</h1>
 
-    <!-- <form action="/index" method="POST">
-        <input type="text" name="name" placeholder="BPM">
-        <input type="submit" value="Submit">
-    </form> -->
+        <!-- <form action="/index" method="POST">
+            <input type="text" name="name" placeholder="BPM">
+            <input type="submit" value="Submit">
+        </form> -->
 
+        <style>
+            .allbox select{
+                width: 50vw;
+            }
+        </style>
+        <div class="allbox">
 
-    <select name="bpm" id="bpm">
-    </select> bpm
-    <select name="beat" id="beat">
-    <option value="4" selected>4</option>
-    <option value="6">6</option>
-    </select> 拍子
+            <select name="bpm" id="bpm"></select> bpm
+            <select name="beat" id="beat">
+                <option value="4" selected>4</option>
+                <option value="6">6</option>
+            </select> 拍子
+
+        </div>div>
     
     <form id="Form" action="#">
     <input type="button" onclick="Play()" value="PLAY" id="btn_Play">  <input type="button" onclick="Stop()" value="STOP" id="btn_Stop">
